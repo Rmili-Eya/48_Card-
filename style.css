@@ -1,0 +1,136 @@
+body {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.card-body {
+  margin-top: 150px;
+}
+.card {
+  border: 0 !important;
+}
+.bubble1_b {
+  content: "";
+  position: absolute;
+  z-index: 10;
+  bottom: -20px;
+  left: 300px;
+  width: 40px;
+  height: 40px;
+  background: -webkit-linear-gradient(left, #84c8c0, #6490c2);
+  background: -o-linear-gradient(right, #84c8c0, #6490c2);
+  background: -moz-linear-gradient(right, #84c8c0, #6490c2);
+  background: linear-gradient(to right, #84c8c0, #6490c2);
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  display: block;
+}
+.bubble1_t {
+  content: "";
+  position: absolute;
+  z-index: 10;
+  bottom: 250px;
+  left: 930px;
+  width: 40px;
+  height: 40px;
+  background: -webkit-linear-gradient(left, #84c8c0, #6490c2);
+  background: -o-linear-gradient(right, #84c8c0, #6490c2);
+  background: -moz-linear-gradient(right, #84c8c0, #6490c2);
+  background: linear-gradient(to right, #84c8c0, #6490c2);
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  display: block;
+}
+.bubble2_t {
+  content: "";
+  position: absolute;
+  z-index: 10;
+  bottom: 5px;
+  left: 250px;
+  width: 30px;
+  height: 30px;
+  background: -webkit-linear-gradient(left, #84c8c0, #6490c2);
+  background: -o-linear-gradient(right, #84c8c0, #6490c2);
+  background: -moz-linear-gradient(right, #84c8c0, #6490c2);
+  background: linear-gradient(to right, #84c8c0, #6490c2);
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  display: block;
+}
+.bubble2_b {
+  content: "";
+  position: absolute;
+  z-index: 10;
+  bottom: 210px;
+  left: 980px;
+  width: 30px;
+  height: 30px;
+  background: -webkit-linear-gradient(left, #84c8c0, #6490c2);
+  background: -o-linear-gradient(right, #84c8c0, #6490c2);
+  background: -moz-linear-gradient(right, #84c8c0, #6490c2);
+  background: linear-gradient(to right, #84c8c0, #6490c2);
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  display: block;
+}
+.bubble3_b {
+  content: "";
+  position: absolute;
+  z-index: 10;
+  bottom: 45px;
+  left: 230px;
+  width: 20px;
+  height: 20px;
+  background: -webkit-linear-gradient(left, #84c8c0, #6490c2);
+  background: -o-linear-gradient(right, #84c8c0, #6490c2);
+  background: -moz-linear-gradient(right, #84c8c0, #6490c2);
+  background: linear-gradient(to right, #84c8c0, #6490c2);
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  display: block;
+}
+.bubble3_t {
+  content: "";
+  position: absolute;
+  z-index: 10;
+  bottom: 180px;
+  left: 1010px;
+  width: 20px;
+  height: 20px;
+  background: -webkit-linear-gradient(left, #84c8c0, #6490c2);
+  background: -o-linear-gradient(right, #84c8c0, #6490c2);
+  background: -moz-linear-gradient(right, #84c8c0, #6490c2);
+  background: linear-gradient(to right, #84c8c0, #6490c2);
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  display: block;
+}
+
+.card-body {
+  background: #fff;
+  border: 0;
+  position: relative;
+  margin-bottom: 24px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 30px;
+  box-shadow: 0 2px 10px rgb(0 0 0 / 0.2);
+  height: 240px;
+  padding: 35px;
+}
+@media screen and (max-width: 400px) {
+  .bubbles_t,
+  .bubbles_b {
+    display: none;
+  }
+  .card-body {
+    height: 300px;
+  }
+}
